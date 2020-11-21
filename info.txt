@@ -1,0 +1,8 @@
+color code :::: total back wall ----->#e3dbd3 [black/ dark grey text on it]
+
+light shade box  ::: #f2e9e6 [dark grey box text]
+
+dark onion shade box ::: #915757 [light shadde box text ]
+
+dark grey box ::: #695252 [light shade box text]
+
