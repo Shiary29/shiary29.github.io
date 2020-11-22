@@ -104,11 +104,11 @@
     
 
     //im adding
-    const name = document.getElementById("name");
-    const email = document.getElementById("email");
-    const subject = document.getElementById("subject");
-    const message = document.getElementById("message");
-    const button = document.getElementById("button");
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var subject = document.getElementById("subject");
+    var message = document.getElementById("message");
+    var button = document.getElementById("button");
 
     const database = firebase.database(); 
 
@@ -124,7 +124,11 @@
 
         });
 
-        document.getElementById('contactForm').request();
+        // document.getElementById('contactForm').reset();
+        name.value="";
+        email.value="";
+        subject.value="";
+        message.value="";
 
     });
 
